@@ -101,7 +101,7 @@ In this paper, we report the results of training on samples that didn't go throu
 ## Data
 
 We release all data files (in **data/ada-instruct** directory) we generated and used to train LLMs in [Step 3](#overview), including:
-- [humaneval_synthesized_6.4k.jsonl](https://github.com/wangitu/Ada-Instruct/blob/main/data/ada-instruct/humaneval_synthesized_6.4k.jsonl)
+- [humaneval_synthesized_10k.jsonl](https://github.com/wangitu/Ada-Instruct/blob/main/data/ada-instruct/humaneval_synthesized_10k.jsonl)
 - [mbpp_synthesized_10k.jsonl](https://github.com/wangitu/Ada-Instruct/blob/main/data/ada-instruct/mbpp_synthesized_10k.jsonl)
 - [gsm8k_synthesized_10k.jsonl](https://github.com/wangitu/Ada-Instruct/blob/main/data/ada-instruct/gsm8k_synthesized_10k.jsonl)
 - [math_synthesized_10k.jsonl](https://github.com/wangitu/Ada-Instruct/blob/main/data/ada-instruct/math_synthesized_10k.jsonl)
@@ -122,7 +122,7 @@ Here are the results of Ada-Instruct on standard benchmark datasets. All the res
 | Model | Params | HumanEval | MBPP |
 | :---: | :---: | :---: | :---: |
 | Code LLAMA-Python (base) | 13B | 43.3 | 49.0 |
-| Ada-Instruct-HumanEval | 13B | 64.0 | - |
+| Ada-Instruct-HumanEval | 13B | 65.2 | - |
 | Ada-Instruct-MBPP | 13B | - | 55.6 |
 
 ### Math (pass@1)
